@@ -62,7 +62,8 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 ```
 .
 ├── app.py                     # Main Streamlit application
-├── cpo_stock_adjusted.csv    # Processed WRDS data (AVGO, INTC, NVDA)
+├── cpo_stock_adjusted.csv     # Processed WRDS data (AVGO, INTC, NVDA)
+├── notebook.ipynb             # Data cleaning and exploratory analysis
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This file
 ```
