@@ -1,8 +1,8 @@
 # ACC102-CPO-Stock-Analysis
 ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CRSP data. This repository integrates Python-based data processing, financial performance, risk and liquidity analysis, and an interactive Streamlit dashboard for exploring market dynamics and firm characteristics.
-# CPO-Related Stocks Analysis Dashboard (3 Companies: AVGO, INTC, NVDA)
 
-## 1. Problem & User (1-2 sentences)
+
+## 1. Problem & User 
 
 **Problem:** Investors and finance students lack a simple, interactive tool to compare market performance and key trading metrics (liquidity, growth, volatility) of three major semiconductor companies involved in Co‑Packaged Optics (CPO) – a critical technology for AI data centres.
 
@@ -50,20 +50,17 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
    ```bash
    git clone https://github.com/jingserena1733/ACC102-CPO-Stock-Analysis.git
    cd cpo-stocks-dashboard
-   Install dependencies:
+
 
 2.Install dependencies:
   ```bash
 pip install -r requirements.txt
-Run the Streamlit app:
 
 3.Run the Streamlit app:
   ```bash
 streamlit run app.py
 
 4.The dashboard will open in your browser. Use the sidebar to select companies, date range, and chart metric.
-
-
 
 6. Product Link / Demo
 GitHub Repository:https://github.com/jingserena1733-jpg/ACC102-CPO-Stock-Analysis
