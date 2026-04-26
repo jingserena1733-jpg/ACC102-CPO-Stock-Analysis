@@ -28,7 +28,7 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 
 - **Split‑adjustment applied** – Raw prices adjusted using CRSP `cfacpr`/`cfacshr` to ensure continuous historical comparisons.
 
-- **NVIDIA** – Highest split‑adjusted price growth (>500%) and volatility (>60%), reflecting strong AI market enthusiasm.
+- **NVIDIA** – Highest split‑adjusted price growth  and volatility (>60%), reflecting strong AI market enthusiasm.
 
 - **Broadcom** – Moderate volatility (~30%) and tight spreads, indicating a more stable, diversified business.
 
