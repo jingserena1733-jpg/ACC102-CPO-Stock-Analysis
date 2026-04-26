@@ -13,11 +13,10 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 - **Access Date:** April 2026 (data covers January 2020 – December 2024).
 - **Companies:** AVGO (Broadcom), INTC (Intel), NVDA (NVIDIA).
 - **Key Fields:** date, ticker, price (prc), return (ret), volume (vol), shares outstanding (shrout), bid, ask, market cap (prc * shrout), spread (ask - bid).
-- **Note:** The processed CSV file (`cpo_stock_processed.csv`) is included in this repository (< 25 MB).
 
 ## 3. Methods (Main Python Steps)
 
-1. **Load & Clean** – Read CSV, parse dates, filter valid tickers.
+1. **Load & Clean** –Use pandas to save WRDS data as CSV after retrieving it via the WRDS Python interface, Read CSV, parse dates, filter valid tickers.
 2. **Sidebar Filters** – User selects tickers, date range, and chart metric.
 3. **KPIs** – Average daily return, daily volatility, average volume.
 4. **Financial Indicators** – Compute Market Cap, Price Growth, Avg Volume, Avg Spread, Annualized Volatility, Highest/Lowest Price.
