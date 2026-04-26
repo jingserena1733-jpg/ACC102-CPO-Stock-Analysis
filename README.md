@@ -48,5 +48,41 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/cpo-stocks-dashboard.git
+   git clone https://github.com/jingserena1733/ACC102-CPO-Stock-Analysis.git
    cd cpo-stocks-dashboard
+   Install dependencies:
+
+2.Install dependencies:
+bash
+pip install -r requirements.txt
+Run the Streamlit app:
+
+3.Run the Streamlit app:
+bash
+streamlit run app.py
+
+4.The dashboard will open in your browser. Use the sidebar to select companies, date range, and chart metric.
+
+Repository structure
+text
+.
+├── app.py                     # Main Streamlit application
+├── cpo_stock_processed.csv    # Processed WRDS data (AVGO, INTC, NVDA)
+├── requirements.txt           # Python dependencies
+└── README.md                  # This file
+6. Product Link / Demo
+GitHub Repository:(https://github.com/jingserena1733/ACC102-CPO-Stock-Analysis.git)
+
+7. Limitations & Next Steps
+Limitations:
+
+Only three companies are included (NVDA, AVGO, INTC). More CPO-related firms could be added.
+
+The analysis is purely backward‑looking and does not forecast future stock movements.
+
+Next Steps:
+
+Add a simple momentum indicator (e.g., moving average crossover) to support trading decisions.
+
+Deploy to Streamlit Community Cloud for instant online access.
+
