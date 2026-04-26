@@ -53,25 +53,20 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
    Install dependencies:
 
 2.Install dependencies:
-bash
+  ```bash
 pip install -r requirements.txt
 Run the Streamlit app:
 
 3.Run the Streamlit app:
-bash
+  ```bash
 streamlit run app.py
 
 4.The dashboard will open in your browser. Use the sidebar to select companies, date range, and chart metric.
 
-Repository structure
-text
-.
-├── app.py                     # Main Streamlit application
-├── cpo_stock_processed.csv    # Processed WRDS data (AVGO, INTC, NVDA)
-├── requirements.txt           # Python dependencies
-└── README.md                  # This file
+
+
 6. Product Link / Demo
-GitHub Repository:(https://github.com/jingserena1733/ACC102-CPO-Stock-Analysis.git)
+GitHub Repository:https://github.com/jingserena1733-jpg/ACC102-CPO-Stock-Analysis
 
 7. Limitations & Next Steps
 Limitations:
