@@ -48,22 +48,22 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 ### Steps
 1. Clone this repository:
    ```bash
-   git clone https://github.com/jingserena1733/ACC102-CPO-Stock-Analysis.git
+   git clone (https://github.com/jingserena1733-jpg/ACC102-CPO-Stock-Analysis)
    cd cpo-stocks-dashboard
-
-
+   
 2.Install dependencies:
-  ```bash
+   ```bash
 pip install -r requirements.txt
 
 3.Run the Streamlit app:
-  ```bash
+   ```bash
 streamlit run app.py
 
 4.The dashboard will open in your browser. Use the sidebar to select companies, date range, and chart metric.
 
 6. Product Link / Demo
 GitHub Repository:https://github.com/jingserena1733-jpg/ACC102-CPO-Stock-Analysis
+
 
 7. Limitations & Next Steps
 Limitations:
