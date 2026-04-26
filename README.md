@@ -26,10 +26,15 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 
 ## 4. Key Findings
 
-- **NVIDIA** shows the strongest price growth (>500% over the period) and highest annualized volatility (>60%), reflecting AI hype and elevated expectations.
-- **Broadcom** has lower volatility (~30%) and tighter spreads, indicating a more stable, diversified business model.
-- **Intel** experienced negative price growth and lower liquidity, consistent with its ongoing turnaround challenges.
-- Liquidity (volume + spread) is strongly correlated with market capitalisation; large‑caps are much more efficient to trade.
+- **Split‑adjustment applied** – Raw prices adjusted using CRSP `cfacpr`/`cfacshr` to ensure continuous historical comparisons.
+
+- **NVIDIA** – Highest split‑adjusted price growth (>500%) and volatility (>60%), reflecting strong AI market enthusiasm.
+
+- **Broadcom** – Moderate volatility (~30%) and tight spreads, indicating a more stable, diversified business.
+
+- **Intel** – Negative price growth and lower liquidity, consistent with ongoing turnaround challenges.
+
+- **Liquidity** – Large‑caps (NVDA, AVGO) offer much higher trading efficiency than Intel.
 
 ## 5. How to Run
 
