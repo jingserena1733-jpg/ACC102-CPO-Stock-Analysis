@@ -71,7 +71,7 @@ ACC102 Course Project: A data-driven analysis of CPO-related firms using WRDS CR
 ## 6. Product Link / Demo
 
 - **GitHub Repository:** (https://github.com/jingserena1733-jpg/ACC102-CPO-Stock-Analysis)
-- **Demo Video:** 
+- **Demo Video:** 【ACC102 CPO-Stock-analysis】 https://www.bilibili.com/video/BV1FVoBB7Ehu/?share_source=copy_web&vd_source=ad13210d1cbd5a96bb0a4d3419386758
 
 ## 7. Limitations & Next Steps
 
